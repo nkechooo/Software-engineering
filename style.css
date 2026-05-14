@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f9fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #2d6cdf;
+    color: #fff;
+    padding: 24px 0 18px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(44,108,223,0.05);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.results-container {
+    max-width: 800px;
+    margin: 30px auto 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(44,108,223,0.07);
+    padding: 28px 32px 18px 32px;
+}
+
+.result-item {
+    border-bottom: 1px solid #eaeaea;
+    padding: 18px 0;
+}
+.result-item:last-child {
+    border-bottom: none;
+}
+.result-title {
+    font-size: 1.18em;
+    color: #2d6cdf;
+    text-decoration: none;
+    font-weight: 500;
+}
+.result-title:hover {
+    text-decoration: underline;
+}
+.result-meta {
+    font-size: 0.93em;
+    color: #888;
+    margin: 4px 0 8px 0;
+}
+.result-snippet {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 6px;
+}
+.snapshot-link {
+    font-size: 0.93em;
+    color: #888;
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.snapshot-link:hover {
+    color: #2d6cdf;
+}
+
+.pagination {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.pagination button, .pagination span {
+    background: #fff;
+    border: 1px solid #2d6cdf;
+    color: #2d6cdf;
+    border-radius: 18px;
+    padding: 5px 16px;
+    margin: 0 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.pagination button:hover {
+    background: #2d6cdf;
+    color: #fff;
+}
+.pagination .current {
+    background: #2d6cdf;
+    color: #fff;
+    border: none;
+}
+
+.search-form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.search-box-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+#recent-searches {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background: white;
+        border: 1px solid #ccc;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+        z-index: 1000;
+        text-align: left;
+        display: none;
+        padding: 10px;
+        min-width: 200px;
+        width: 100%; /* 让宽度和输入框一致 */
+        /* 移除 transform 和固定 top 值 */
+    }

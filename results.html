@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>搜索结果</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>搜索词：{{ query }}</h1>
+    </div>
+    <div class="results-container">
+        <p>共找到约 {{ total_results }} 条结果</p>
+        {% for r in results %}
+        <div class="result-item">
+            <a class="result-title" href="{{ r.url }}" target="_blank">{{ r.title }}</a>
+            {% if r.snapshot_hash %}
+            <a class="snapshot-link" href="/snapshot?snapshot_hash={{ r.snapshot_hash }}" target="_blank">网页快照</a>
+            {% endif %}
+            
+            <div class="result-snippet">{{ r.snippet }}</div>
+        </div>
+        {% endfor %}
+
+        <div class="pagination">
+            {% if page > 1 %}
+            <button onclick="window.location.href='?q={{ query }}&page={{ page - 1 }}'">上一页</button>
+            {% endif %}
+            <span class="current">{{ page }}</span>
+            {% if results|length == page_size %}
+            <button onclick="window.location.href='?q={{ query }}&page={{ page + 1 }}'">下一页</button>
+            {% endif %}
+        </div>
+        <div style="text-align:center;margin-top:20px;">
+            <a href="/">返回搜索页</a>
+        </div>
+    </div>
+</body>
+</html>

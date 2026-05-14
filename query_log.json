@@ -1,0 +1,548 @@
+[
+    {
+        "query": "\u8ba1\u7b97",
+        "type": "document",
+        "timestamp": "2025-06-11T12:43:52.347727"
+    },
+    {
+        "query": "\u8868",
+        "type": "document",
+        "timestamp": "2025-06-11T12:44:12.363957"
+    },
+    {
+        "query": "\u591c*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T12:44:28.492839"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "standard",
+        "timestamp": "2025-06-11T13:00:53.858114"
+    },
+    {
+        "query": "\u5357\u5f00\u662f\u4e00\u6240\u5927\u5b66",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:01:13.009737"
+    },
+    {
+        "query": "\u5357\u5f00\u662f\u4e00\u6240\u7efc\u5408\u6027\u5927\u5b66",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:01:19.626498"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a \u5b66\u9662",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:02:27.840190"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:03:25.154622"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u548c\u7f51\u7edc\u5b66\u9662",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:06:30.544051"
+    },
+    {
+        "query": "\u5357\u5f00\u5927\u5b66",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:06:48.906052"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u6240\u5728\u5b66\u9662",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:08:45.375226"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u548c\u7f51\u7edc\u7a7a\u95f4\u5b89\u5168\u5b66\u9662",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:11:01.307064"
+    },
+    {
+        "query": "\u591c\u8dd1 \u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:30:22.020372"
+    },
+    {
+        "query": "\u8367\u5149 \u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:30:36.340938"
+    },
+    {
+        "query": "\u8367\u5149\u591c\u8dd1",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:35:31.184687"
+    },
+    {
+        "query": "\u8367\u5149\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:36:52.980481"
+    },
+    {
+        "query": "\u8367\u5149\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:37:03.518533"
+    },
+    {
+        "query": "\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T13:37:43.709297"
+    },
+    {
+        "query": "\u8ba1*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T13:51:37.305055",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u5b66\u9662",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:00:36.089754"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u5b66\u9662",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:01:21.203944"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a\u5b66\u9662",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:01:58.965654"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:05:07.366211"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:05:14.551249"
+    },
+    {
+        "query": "\u8367\u5149\u591c\u8dd1",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:06:36.723093"
+    },
+    {
+        "query": "\u6e29",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:07:25.536627"
+    },
+    {
+        "query": "\u7f51\u7edc",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:08:13.093786"
+    },
+    {
+        "query": "\u7f51\u7edc",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:08:20.344971"
+    },
+    {
+        "query": "\u7f51\u7edc",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:10:02.490971"
+    },
+    {
+        "query": "\u7f51\u7edc",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:10:24.451600"
+    },
+    {
+        "query": "\u8bb2\u5ea7",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:14:17.028695"
+    },
+    {
+        "query": "\u5316\u5b66",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:21:52.993292"
+    },
+    {
+        "query": "\u8ba1*",
+        "type": "standard",
+        "timestamp": "2025-06-11T14:56:25.759536",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T14:56:37.843436",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T15:22:51.632256",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1\u7b97*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T15:23:10.156985",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8868",
+        "type": "document",
+        "timestamp": "2025-06-11T15:23:39.708866",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8868",
+        "type": "document",
+        "timestamp": "2025-06-11T15:28:51.906400",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8868",
+        "type": "document",
+        "timestamp": "2025-06-11T15:31:50.950307"
+    },
+    {
+        "query": "\u9644\u4ef6",
+        "type": "document",
+        "timestamp": "2025-06-11T15:35:08.081225"
+    },
+    {
+        "query": "\u9644\u4ef6",
+        "type": "document",
+        "timestamp": "2025-06-11T15:35:20.197062"
+    },
+    {
+        "query": "\u5316\u5b66",
+        "type": "standard",
+        "timestamp": "2025-06-11T15:39:31.725033",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:45:49.994133",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:53:39.188823"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T19:53:43.601854"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:54:03.782685"
+    },
+    {
+        "query": "\u4fe1\u606f\u68c0\u7d22",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:54:55.679984"
+    },
+    {
+        "query": "\u4fe1\u606f\u68c0\u7d22\u7cfb\u7edf",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:55:00.993946"
+    },
+    {
+        "query": "\u4fe1\u606f\u68c0\u7d22\u7cfb\u7edf",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:55:30.412112",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u4fe1\u606f\u68c0\u7d22",
+        "type": "standard",
+        "timestamp": "2025-06-11T19:55:57.996027",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c",
+        "type": "document",
+        "timestamp": "2025-06-11T19:59:45.165875",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "document",
+        "timestamp": "2025-06-11T19:59:52.648185",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:03.100212",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:05.707511",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:08.741316",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:10.728208",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u4fe1\u606f",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:38.898385",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:48.741016",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T20:01:57.563638",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T20:02:38.035420",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T20:07:54.806338",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:07:58.145859",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8367\u5149\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:08:11.166300",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8367\u5149\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:08:26.250466",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:08:42.009640",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8367\u5149\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:09:52.867084",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:10:20.577473",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8367\u5149\u591c\u8dd1\u6d3b\u52a8",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:10:57.364709",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:11:22.676780",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:11:30.413798",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:11:57.755230",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:12:13.689382",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66\u5b66\u9662\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:12:42.562265",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:12:49.784237",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66\u5b66\u9662\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T20:13:49.416807",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u6e29*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T20:14:52.891115",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u6e29\uff1f",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T20:16:11.031764",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5b9e\u9a8c\u5ba4",
+        "type": "standard",
+        "timestamp": "2025-06-11T20:30:02.674842",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u5316\u5b66",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:17:37.266041"
+    },
+    {
+        "query": "\u4fe1\u606f\u68c0\u7d22",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:24:07.072028"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T21:25:12.840347"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T21:25:49.392903"
+    },
+    {
+        "query": "\u5316\u5b66\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T21:26:25.060805"
+    },
+    {
+        "query": "\u5316\u5b66\u5b66\u9662\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T21:27:15.914950"
+    },
+    {
+        "query": "\u6e29*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T21:27:52.395859"
+    },
+    {
+        "query": "\u6e29\uff1f",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T21:28:13.776056"
+    },
+    {
+        "query": "\u5316\u5b66\u5b9e\u9a8c\u5ba4",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:30:09.419764",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:33:17.831221",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u4fe1\u606f\u68c0\u7d22",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:37:09.951007"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T21:38:16.972417"
+    },
+    {
+        "query": "\u5357\u5f00",
+        "type": "document",
+        "timestamp": "2025-06-11T21:38:55.886100"
+    },
+    {
+        "query": "\u5316\u5b66\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T21:39:28.837643"
+    },
+    {
+        "query": "\u5316\u5b66\u5b66\u9662\u5b9e\u9a8c\u5ba4",
+        "type": "phrase",
+        "timestamp": "2025-06-11T21:39:59.753837"
+    },
+    {
+        "query": "\u6e29*",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T21:41:01.032084"
+    },
+    {
+        "query": "\u6e29\uff1f",
+        "type": "wildcard",
+        "timestamp": "2025-06-11T21:41:22.368526"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:43:17.820507",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:46:25.097538",
+        "user_id": "2312012"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T21:46:48.534897",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T22:40:23.352442",
+        "user_id": "2312063"
+    },
+    {
+        "query": "\u8ba1\u7b97\u673a",
+        "type": "standard",
+        "timestamp": "2025-06-11T22:42:55.987643",
+        "user_id": "2312012"
+    }
+]
